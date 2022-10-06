@@ -3,10 +3,10 @@
 ### 1. Sticky header
 Crea un header (con su nav, botones de navegación, etc.) y varias secciones con texto dummy (lorem ipsum) para que haya scroll. A continuación, haz que el header se quede "pegado" a la parte superior de la pantalla cuando se hace scroll, y que el resto de la página pase por debajo.
 
-**Bonus track**\
+#### Bonus track
 Crea un botón que diga "To Top" y colócalo en la esquina inferior derecha de la pantalla. El botón debe quedarse en esa posición cuando se haga scroll, siempre visible en su esquina, mientras el resto de la página pasa por debajo.
 
-### 2. Absolute layout
+### 2. Chaotic layout
 Usa la propiedad `position` para desarrollar el siguiente layout:
 
 ![](./images/absolute_position_layout.jpg)
@@ -20,28 +20,34 @@ Diseña un botón que, cuando se le haga `hover` con el ratón, tenga un efecto 
 ### 5. Texto desplazado
 Crea un botón y un texto. El texto debe estar desplazado **fuera de la pantalla** por la derecha, no debe verse. Cuando se haga `hover` en el botón, el texto debe entrar en la pantalla desde su posición más allá del borde derecho. Haz que el movimiento sea suave y fluido.
 
-**Bonus track**\
+#### Bonus track*
 En vez de desplazar el texto fuera de la pantalla, esta vez tiene que estar debajo del botón, pero debes hacer que sea **invisible**. Cuando se haga `hover` en el botón, el texto debe volverse **visible**, pero no bruscamente, sino poco a poco.
 
-**Bonus Track 2: La Venganza**\
+#### Bonus Track 2: La Venganza
 Ahora deberás combinar ambos movimientos. El texto estará debajo del botón y será **visible**, pero cuando se haga `hover` sobre el botón, el texto se desplazará un poco (hacia donde quieras) y **luego** cambiará de color. Cuidado: primero debe desplazarse, y sólo cuando haya terminado el movimiento deberá cambiar de color.
 
 ### 6. Flexbox: no pixels
 Tienes un HTML con una `section` y dentro dos `div`. Debes llegar al resultado que se enseña en **la imagen más abajo**, con una condición: **no puedes usar la propiedad `margin` en los divs rojos**. Copia y pega el CSS que te dejo aquí:
 
-```section {
-	width: 1000px;
+```
+section {
+    width: 1000px;
     height: fit-content;
     margin: 3rem auto;
     padding: 1rem 0;
     background-color: navy;
 
-	/* Your code here: */
+    /* Your code here: */
+
+
 }
 
 div {
     background-color: brown;
+
 	/* Your code here: */
+
+
 }
 ```
 
@@ -51,7 +57,7 @@ El resultado debe ser el siguiente:
 
 ![](./images/flex_exercise_1.png)
 
-**Bonus track**\
+#### Bonus track
 ¿Sabrías cómo hacerlo sin dar ninguna `width` a los `div`, pero pudiendo darles `margin`? Yo no...
 
 ### 7. Flexbox: column challenge
@@ -65,6 +71,8 @@ section {
     background-color: navy;
 
 	/* Your code here: */
+
+
 }
 
 div {
