@@ -20,7 +20,7 @@ Diseña un botón que, cuando se le haga `hover` con el ratón, tenga un efecto 
 ### 5. Texto desplazado
 Crea un botón y un texto. El texto debe estar desplazado **fuera de la pantalla** por la derecha, no debe verse. Cuando se haga `hover` en el botón, el texto debe entrar en la pantalla desde su posición más allá del borde derecho. Haz que el movimiento sea suave y fluido.
 
-#### Bonus track*
+#### Bonus track
 En vez de desplazar el texto fuera de la pantalla, esta vez tiene que estar debajo del botón, pero debes hacer que sea **invisible**. Cuando se haga `hover` en el botón, el texto debe volverse **visible**, pero no bruscamente, sino poco a poco.
 
 #### Bonus Track 2: La Venganza
@@ -45,7 +45,7 @@ section {
 div {
     background-color: brown;
 
-	/* Your code here: */
+    /* Your code here: */
 
 
 }
@@ -65,7 +65,7 @@ Esta vez tienes una `section` y 6 `div`. Debes llegar al resultado que se muestr
 
 ```
 section {
-	width: 1000px;
+    width: 1000px;
     height: 500px;
     margin: 3rem auto;
     background-color: navy;
@@ -76,7 +76,9 @@ section {
 }
 
 div {
-	/* Your code here: */
+    /* Your code here: */
+
+    
 }
 ```
 
