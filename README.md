@@ -1,10 +1,10 @@
 # Ejercicios de repaso de CSS
 
 ### 1. Sticky header
-Crea un header (con su nav, botones de navegación, etc.) y varias secciones con texto dummy (lorem ipsum) para que haya scroll. A continuación, haz que el header se quede "pegado" a la parte superior de la pantalla cuando se hace scroll, y que el resto de la página pase por debajo.
+Crea un `header` (con su nav, botones de navegación, etc.) y varias secciones con texto dummy (lorem ipsum) para que haya scroll. A continuación, haz que el `header` se quede **"pegado"** a la parte superior de la pantalla cuando se hace scroll, y que el resto de la página pase por debajo.
 
 #### Bonus track
-Crea un botón que diga "To Top" y colócalo en la esquina inferior derecha de la pantalla. El botón debe quedarse en esa posición cuando se haga scroll, siempre visible en su esquina, mientras el resto de la página pasa por debajo.
+Crea un `button` que diga "To Top" y colócalo en la esquina inferior derecha de la pantalla. El botón debe quedarse en esa posición cuando se haga scroll, siempre visible en su esquina, mientras el resto de la página pasa por debajo.
 
 ### 2. Chaotic layout
 Usa la propiedad `position` para desarrollar el siguiente layout:
@@ -70,7 +70,7 @@ section {
     margin: 3rem auto;
     background-color: navy;
 
-	/* Your code here: */
+    /* Your code here: */
 
 
 }
@@ -78,7 +78,7 @@ section {
 div {
     /* Your code here: */
 
-    
+
 }
 ```
 
