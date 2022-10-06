@@ -49,7 +49,7 @@ div {
 
 El resultado debe ser el siguiente:
 
-![](.images/flex_exercise_1)
+![](./images/flex_exercise_1)
 
 **bonus tracks**
 ¿Sabrías cómo hacerlo sin dar ninuna `width` a los divs, pero pudiendo darles `margin`? Yo no...
@@ -72,14 +72,14 @@ div {
 }
 ```
 
-![](.images/flex_exercise_2)
+![](./images/flex_exercise_2)
 
 Esta vez no hay restricciones.
 
 ### 8. Grid: the Flexbox nemesis
 Usando CSS Grid, crea estas 3 layouts **por separado**:
 
-![](.images/grid_layout)
+![](./images/grid_layout)
 
 ### 9. @media
 Convierte el ejercicio anterior en **responsive**: 1 HTML, mucho CSS.
