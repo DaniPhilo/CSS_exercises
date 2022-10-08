@@ -1,21 +1,25 @@
 # Ejercicios de repaso de CSS
 
 ### 1. Sticky header
-Crea un `header` (con su nav, botones de navegación, etc.) y varias secciones con texto dummy (lorem ipsum) para que haya scroll. A continuación, haz que el `header` se quede **"pegado"** a la parte superior de la pantalla cuando se hace scroll, y que el resto de la página pase por debajo.
+Crea un `header` (con su `nav`, botones de navegación, etc.) y varias secciones con texto dummy (lorem ipsum) para que haya scroll. A continuación, haz que el `header` se quede **"pegado"** a la parte superior de la pantalla cuando se hace scroll, y que el resto de la página pase por debajo. Aprovecha para darle también algún efecto a los links cuando pasemos el ratón sobre ellos.
+
+Puedes inspirarte en [este diseño](https://classy-madeleine-b2189f.netlify.app) (o copiarlo descaradamente).
 
 #### Bonus track
-Crea un `button` que diga "To Top" y colócalo en la esquina inferior derecha de la pantalla. El botón debe quedarse en esa posición cuando se haga scroll, siempre visible en su esquina, mientras el resto de la página pasa por debajo.
+Crea un botón que diga "To Top" y colócalo en la esquina inferior derecha de la pantalla. El botón debe quedarse en esa posición cuando se haga scroll, siempre visible en su esquina, mientras el resto de la página pasa por debajo. ¿Puedes hacer que cuando clickemos en él, nos lleve al inicio de la página?
 
 ### 2. Chaotic layout
 Usa la propiedad `position` para desarrollar el siguiente layout:
 
 ![](./images/absolute_position_layout.jpg)
 
-### 3. Hamburger button (sólo para los más valientes)
-Usa tus conocimientos de la propiedad `position` para diseñar un **hamburger button**. Para ello, tendrás que averiguar por tu cuenta como funcionan los pseudoelementos `::before` y `::after`.
-
-### 4. Cool button
+### 3. Cool button
 Diseña un botón que, cuando se le haga `hover` con el ratón, tenga un efecto chulo. Puede ser como tú quieras: da rienda suelta a tu imaginación. Investiga en las posibilidades de la propiedad `transform`.
+
+Puedes inspirarte en [este diseño](https://startling-cannoli-cabca2.netlify.app).
+
+### 4. Hamburger button (sólo para los más valientes)
+Usa tus conocimientos de la propiedad `position` para diseñar un **hamburger button**. Para ello, tendrás que averiguar por tu cuenta como funcionan los pseudoelementos `::before` y `::after`. Colócalo en la esquina superior derecha (o izquierda), donde suele estar en las vistas móviles.
 
 ### 5. Texto desplazado
 Crea un botón y un texto. El texto debe estar desplazado **fuera de la pantalla** por la derecha, no debe verse. Cuando se haga `hover` en el botón, el texto debe entrar en la pantalla desde su posición más allá del borde derecho. Haz que el movimiento sea suave y fluido.
@@ -93,5 +97,10 @@ Usando CSS Grid, crea estas 3 layouts **por separado**:
 
 ### 9. @media
 Convierte el ejercicio anterior en **responsive**: 1 HTML, mucho CSS.
+
+### 10. Card colector
+Diseña y desarrolla una card de producto que tenga una imágen de fondo, un título, texto explicativo (pueden ser todo Lorem Ipsum, por supuesto) y un botón. A continuación, dale efectos y animaciones para hacerla interactiva cuando el usuario pase el ratón sobre ella. Cuanto más loco el efecto, mejor. Buscamos barroquismo, rococó.
+
+Puedes inspirarte en **[este diseño](https://amazing-cranachan-4ae763.netlify.app)**.
 
 **Happy coding!!**
