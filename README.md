@@ -3,7 +3,7 @@
 ### 1. Sticky header
 Crea un `header` (con su `nav`, botones de navegación, etc.) y varias secciones con texto dummy (lorem ipsum) para que haya scroll. A continuación, haz que el `header` se quede **"pegado"** a la parte superior de la pantalla cuando se hace scroll, y que el resto de la página pase por debajo. Aprovecha para darle también algún efecto a los links cuando pasemos el ratón sobre ellos.
 
-Puedes inspirarte en <a href="https://classy-madeleine-b2189f.netlify.app" target="_blank">este diseño</a> (o copiarlo descaradamente).
+Puedes inspirarte en [este diseño](https://classy-madeleine-b2189f.netlify.app) (o copiarlo descaradamente).
 
 #### Bonus track
 Crea un botón que diga "To Top" y colócalo en la esquina inferior derecha de la pantalla. El botón debe quedarse en esa posición cuando se haga scroll, siempre visible en su esquina, mientras el resto de la página pasa por debajo. ¿Puedes hacer que cuando clickemos en él, nos lleve al inicio de la página?
