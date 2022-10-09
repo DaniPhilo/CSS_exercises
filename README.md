@@ -93,12 +93,9 @@ div {
 Esta vez no hay restricciones.
 
 ### 8. Grid: the Flexbox nemesis
-Usando CSS Grid, crea estas 3 layouts **por separado**:
+Usando CSS Grid, crea estas 3 layouts y usa **media queries** para hacer que transicionen de una a otra:
 
 ![](./images/grid_layout.png)
-
-### 9. @media
-Convierte el ejercicio anterior en **responsive**: 1 HTML, mucho CSS.
 
 
 ## Mini-proyectos
