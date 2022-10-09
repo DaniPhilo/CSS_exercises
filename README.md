@@ -93,7 +93,7 @@ div {
 Esta vez no hay restricciones.
 
 ### 8. Grid: the Flexbox nemesis
-Usando CSS Grid, crea estas 3 layouts y usa **media queries** para hacer que transicionen de una a otra:
+Usando CSS Grid, crea estas 3 layouts y usa **media queries** para hacer que transicionen de una a otra. Debes usar en **al menos una layout** la propiedad `grid-template-areas`, pero no puedes usarla en todas: en **al menos una layout** debes buscar otra forma de hacerlo con Grid.
 
 ![](./images/grid_layout.png)
 
