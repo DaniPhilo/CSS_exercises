@@ -1,5 +1,7 @@
 # Ejercicios de repaso de CSS
 
+## Ejercicios
+
 ### 1. Sticky header
 Crea un `header` (con su `nav`, botones de navegación, etc.) y varias secciones con texto dummy (lorem ipsum) para que haya scroll. A continuación, haz que el `header` se quede **"pegado"** a la parte superior de la pantalla cuando se hace scroll, y que el resto de la página pase por debajo. Aprovecha para darle también algún efecto a los links cuando pasemos el ratón sobre ellos.
 
@@ -31,7 +33,7 @@ En vez de desplazar el texto fuera de la pantalla, esta vez tiene que estar deba
 Ahora deberás combinar ambos movimientos. El texto estará debajo del botón y será **visible**, pero cuando se haga `hover` sobre el botón, el texto se desplazará un poco (hacia donde quieras) y **luego** cambiará de color. Cuidado: primero debe desplazarse, y sólo cuando haya terminado el movimiento deberá cambiar de color.
 
 ### 6. Flexbox: no pixels
-Tienes un HTML con una `section` y dentro dos `div`. Debes llegar al resultado que se enseña en **la imagen más abajo**, con una condición: **no puedes usar la propiedad `margin` en los divs rojos**. Copia y pega el CSS que te dejo aquí:
+Tienes un HTML con una `section` y dentro dos `div`. Debes llegar al resultado que se enseña en **la imagen más abajo**, con dos condiciones: **1) no puedes usar la propiedad `margin` en los divs rojos**; **2) no puedes usar píxeles: deberás encontrar otra unidad de medida que sirva a tus propósitos**. Copia y pega el CSS que te dejo aquí:
 
 ```
 section {
@@ -98,9 +100,16 @@ Usando CSS Grid, crea estas 3 layouts **por separado**:
 ### 9. @media
 Convierte el ejercicio anterior en **responsive**: 1 HTML, mucho CSS.
 
-### 10. Card colector
+
+## Mini-proyectos
+
+### 1. Card collector
 Diseña y desarrolla una card de producto que tenga una imágen de fondo, un título, texto explicativo (pueden ser todo Lorem Ipsum, por supuesto) y un botón. A continuación, dale efectos y animaciones para hacerla interactiva cuando el usuario pase el ratón sobre ella. Cuanto más loco el efecto, mejor. Buscamos barroquismo, rococó.
 
 Puedes inspirarte en **[este diseño](https://amazing-cranachan-4ae763.netlify.app)**.
+
+### 2. Pricing Panel
+Clona **[este repositorio](https://github.com/DaniPhilo/pricing_panel_starter)** en tu ordenador. En él encontrarás un HTML ya escrito y preparado, y un archivo CSS para que lo rellenes; también tienes una carpeta con las imágenes que necesitarás. El objetivo es desarrollar un panel exacto a **[este](https://strong-buttercream-9cddf8.netlify.app)**. 
+**Aviso**: ¡es responsive! Eso también deberás programarlo.
 
 **Happy coding!!**
